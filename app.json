@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/java/index",
+    "pages/abstract/abstract"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "程序员跳槽宝典",
+    "navigationBarTextStyle": "black"
+  }
+}

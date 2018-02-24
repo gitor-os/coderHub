@@ -1,0 +1,30 @@
+<view class="page">
+  <view class="page__bd">
+    <view class="weui-article">
+      <view class="weui-article__h1">java简介</view>
+      <view class='weui-arcitle__p1'>
+        Java是由Sun Microsystems公司于1995年5月推出的Java面向对象程序设计语言和Java平台的总称。由James Gosling和同事们共同研发，并在1995年正式推出。 Java分为三个体系：            JavaSE（J2SE）（Java2 Platform Standard Edition，java平台标准版） JavaEE(J2EE)(Java 2 Platform,Enterprise Edition，java平台企业版) JavaME(J2ME)(Java 2         Platform
+        Micro Edition，java平台微型版)。 2005年6月，JavaOne大会召开，SUN公司公开Java SE 6。此时，Java的各种版本已经更名以取消其中的数字"2"：J2EE更名为Java EE, J2SE更名          为Java SE，J2ME更名为Java ME。
+      </view>
+      <view class="weui-article__section">
+        <view class="weui-article__title">主要特征</view>
+        <view class="weui-article__section">
+          <view class="weui-article__h3">1.1 java语言是最简单的</view>
+          <view class="weui-article__p">
+            Java语言的语法与C语言和C++语言很接近，使得大多数程序员很容易学习和使用。另一方面，Java丢弃了C++中很少使用的、很难理解的、令人迷惑的那些特性，如操作符重载、多继承、自动的强制类型转换。特别地，Java语言不使用指针，而是引用。并提供了自动的废料收集，使得程序员不必为内存管理而担忧。
+          </view>
+          <view class="weui-article__p">
+            <image class="weui-article__img" src="../../images/pic_article.png" mode="aspectFit" style="height: 180px" />
+            <image class="weui-article__img" src="../../images/pic_article.png" mode="aspectFit" style="height: 180px" />
+          </view>
+        </view>
+        <view class="weui-article__section">
+          <view class="weui-article__h3">1.2 Java语言是面向对象的</view>
+          <view class="weui-article__p">
+            Java语言提供类、接口和继承等面向对象的特性，为了简单起见，只支持类之间的单继承，但支持接口之间的多继承，并支持类与接口之间的实现机制（关键字为implements）。Java语言全面支持动态绑定，而C++语言只对虚函数使用动态绑定。总之，Java语言是一个纯的面向对象程序设计语言。
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,16 @@
+/* pages/java/pages/abstract.wxss */
+page{
+    background-color: #FFFFFF;
+}
+image{
+    margin: 4px 0;
+}
+.weui-arcitle__p1{
+    font-size: 12px;
+}
+view{
+  margin: 4px 0;
+}
+.weui-article__title{
+    color: black;
+}
