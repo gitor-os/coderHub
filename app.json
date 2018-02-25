@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/java/index",
-    "pages/abstract/abstract"
+    "pages/abstract/abstract",
+    "pages/dataType/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
