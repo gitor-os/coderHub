@@ -11,4 +11,5 @@
     <!-- <text class="user-motto">{{motto}}</text> -->
     <button bindtap='toJavaIndex' class="weui-btn" type="primary">开始学习</button>
   </view>
+  <!-- sss -->
 </view>
