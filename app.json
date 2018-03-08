@@ -11,5 +11,36 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "程序员跳槽宝典",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "red",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "text",
+        "iconPath": "images/icon_nav_feedback.png",
+        "selectedIconPath": "images/icon_nav_feedback.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "text",
+        "iconPath": "images/icon_nav_feedback.png",
+        "selectedIconPath": "images/icon_nav_feedback.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "text",
+        "iconPath": "images/icon_nav_feedback.png",
+        "selectedIconPath": "images/icon_nav_feedback.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "text",
+        "iconPath": "images/icon_nav_feedback.png",
+        "selectedIconPath": "images/icon_nav_feedback.png"
+      }
+    ]
   }
 }
