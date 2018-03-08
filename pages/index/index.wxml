@@ -23,6 +23,7 @@
     </view>
     <view class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">取消</view>
   </view>
+  <view class="weui-cells__title">大家都在看</view>
   <view class="weui-cells weui-cells_after-title">
     <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
       <view class="weui-cell__bd">cell standard</view>

@@ -14,11 +14,11 @@
   },
   "tabBar": {
     "color": "#000000",
-    "selectedColor": "red",
+    "selectedColor": "#FF0000",
     "backgroundColor": "#fff",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/java/index",
         "text": "面试题库",
         "iconPath": "images/icon_nav_feedback.png",
         "selectedIconPath": "images/icon_nav_feedback.png"
