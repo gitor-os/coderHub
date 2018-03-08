@@ -19,25 +19,25 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "text",
+        "text": "面试题库",
         "iconPath": "images/icon_nav_feedback.png",
         "selectedIconPath": "images/icon_nav_feedback.png"
       },
       {
         "pagePath": "pages/index/index",
-        "text": "text",
+        "text": "名博推荐",
         "iconPath": "images/icon_nav_feedback.png",
         "selectedIconPath": "images/icon_nav_feedback.png"
       },
       {
         "pagePath": "pages/index/index",
-        "text": "text",
+        "text": "每日一题",
         "iconPath": "images/icon_nav_feedback.png",
         "selectedIconPath": "images/icon_nav_feedback.png"
       },
       {
         "pagePath": "pages/index/index",
-        "text": "text",
+        "text": "个人中心",
         "iconPath": "images/icon_nav_feedback.png",
         "selectedIconPath": "images/icon_nav_feedback.png"
       }
