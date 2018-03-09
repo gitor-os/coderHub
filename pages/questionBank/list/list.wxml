@@ -1,3 +1,4 @@
 <!--pages/questionBank/list/list.wxml-->
 <view>面试题库</view>
 <view>面试题库进来先是分类，然后点击详情</view>
+<view></view>
