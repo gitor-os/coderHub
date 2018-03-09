@@ -23,6 +23,7 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
+    var that = this;
     wx.request({
       url: 'http://localhost:8088/coder-hub',
       method: "POST",
@@ -30,6 +31,7 @@ Page({
       success: function (r) {
         console.log("======list2======");
         console.log(r.data);
+        console.log(that.data.list2);
       }
     })
   },
