@@ -1,7 +1,14 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/questionBank/list/list",
+    "pages/questionBank/content/content",
+    "pages/everyday/list/list",
+    "pages/everyday/content/content",
+    "pages/home/home",
+    "pages/goodArticle/list/list",
+    "pages/goodArticle/content/content"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -16,24 +23,24 @@
     "list": [
       {
         "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/star-o.png",
+        "selectedIconPath": "images/star.png"
+      },
+      {
+        "pagePath": "pages/questionBank/list/list",
         "text": "面试题库",
         "iconPath": "images/code-square-o.png",
         "selectedIconPath": "images/code-square.png"
       },
       {
-        "pagePath": "pages/index/index",
-        "text": "好文推荐",
-        "iconPath": "images/like-o.png",
-        "selectedIconPath": "images/like.png"
-      },
-      {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/everyday/list/list",
         "text": "每日一题",
         "iconPath": "images/question-circle-o.png",
         "selectedIconPath": "images/question-circle.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/home/home",
         "text": "个人中心",
         "iconPath": "images/appstore-o.png",
         "selectedIconPath": "images/appstore.png"
