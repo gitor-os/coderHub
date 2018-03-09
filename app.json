@@ -11,32 +11,32 @@
   },
   "tabBar": {
     "color": "#000000",
-    "selectedColor": "#FF0000",
+    "selectedColor": "#66cd00",
     "backgroundColor": "#fff",
     "list": [
       {
         "pagePath": "pages/index/index",
         "text": "面试题库",
-        "iconPath": "images/icon_nav_feedback.png",
-        "selectedIconPath": "images/icon_nav_feedback.png"
+        "iconPath": "images/code-square-o.png",
+        "selectedIconPath": "images/code-square.png"
       },
       {
         "pagePath": "pages/index/index",
-        "text": "名博推荐",
-        "iconPath": "images/icon_nav_feedback.png",
-        "selectedIconPath": "images/icon_nav_feedback.png"
+        "text": "好文推荐",
+        "iconPath": "images/like-o.png",
+        "selectedIconPath": "images/like.png"
       },
       {
         "pagePath": "pages/index/index",
         "text": "每日一题",
-        "iconPath": "images/icon_nav_feedback.png",
-        "selectedIconPath": "images/icon_nav_feedback.png"
+        "iconPath": "images/question-circle-o.png",
+        "selectedIconPath": "images/question-circle.png"
       },
       {
         "pagePath": "pages/index/index",
         "text": "个人中心",
-        "iconPath": "images/icon_nav_feedback.png",
-        "selectedIconPath": "images/icon_nav_feedback.png"
+        "iconPath": "images/appstore-o.png",
+        "selectedIconPath": "images/appstore.png"
       }
     ]
   }
