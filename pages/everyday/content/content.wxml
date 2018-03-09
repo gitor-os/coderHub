@@ -1,3 +1,4 @@
 <!--pages/everyday/content/content.wxml-->
 <text>pages/everyday/content/content.wxml</text>
 <text>sss</text>><text>lll</text>
+<view>每日一题出来应该直接显示当天的题，然后有某个按钮处罚历史记录打开列表</view>
