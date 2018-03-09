@@ -1,10 +1,7 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/java/index",
-    "pages/abstract/abstract",
-    "pages/dataType/index"
+    "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -18,7 +15,7 @@
     "backgroundColor": "#fff",
     "list": [
       {
-        "pagePath": "pages/java/index",
+        "pagePath": "pages/index/index",
         "text": "面试题库",
         "iconPath": "images/icon_nav_feedback.png",
         "selectedIconPath": "images/icon_nav_feedback.png"
