@@ -44,7 +44,7 @@
         "text": "个人中心",
         "iconPath": "images/appstore-o.png",
         "selectedIconPath": "images/appstore.png"
-      }
+      } 
     ]
   }
 }

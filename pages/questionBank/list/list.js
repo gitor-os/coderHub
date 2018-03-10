@@ -1,11 +1,18 @@
 // pages/questionBank/list/list.js
+const app = getApp();
+const baseUrl = app.globalData.baseUrl;
+const userInfo = app.globalData.userInfo;
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    list: [],
+    list: [
+      { id: 0, title: "111",content:"" },
+      { id: 1, title: "222" },
+      { id: 2, title: "333" }
+    ],
     list2: [
       { id: 2, name: "long" }, { id: 3, name: "li" }
 
@@ -25,13 +32,15 @@ Page({
   onReady: function () {
     var that = this;
     wx.request({
-      url: 'http://localhost:8088/coder-hub',
+      url: baseUrl +'/coder-hub/test',
       method: "POST",
       dataType: "json",
+      data: { "userInfo": userInfo},
       success: function (r) {
         that.setData({
           list: r.data
         })
+        console.log(that.data.list)
       }
     })
   },
