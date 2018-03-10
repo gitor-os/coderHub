@@ -7,7 +7,7 @@ Page({
   data: {
     list: [],
     list2: [
-      {id:2,name:"long"}, {id:3,name:"li"}
+      { id: 2, name: "long" }, { id: 3, name: "li" }
 
     ]
   },
@@ -29,9 +29,9 @@ Page({
       method: "POST",
       dataType: "json",
       success: function (r) {
-        console.log("======list2======");
-        console.log(r.data);
-        console.log(that.data.list2);
+        that.setData({
+          list: r.data
+        })
       }
     })
   },
