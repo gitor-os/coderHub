@@ -1,1 +1,16 @@
 /* pages/everyday/content/content.wxss */
+page{
+    background-color: #FFFFFF;
+}
+image{
+    margin: 4px 0;
+}
+.button-sp-area{
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+.mini-btn{
+    margin: 0px 20px 0px 20px;
+}

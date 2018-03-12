@@ -32,15 +32,14 @@ Page({
   onReady: function () {
     var that = this;
     wx.request({
-      url: baseUrl +'/coder-hub/test',
+      url: baseUrl +'/coder-hub/question-list',
       method: "POST",
       dataType: "json",
       data: { "userInfo": userInfo},
       success: function (r) {
         that.setData({
-          list: r.data
+          list: r.data.list
         })
-        console.log(that.data.list)
       }
     })
   },

@@ -34,7 +34,7 @@
         "selectedIconPath": "images/code-square.png"
       },
       {
-        "pagePath": "pages/everyday/list/list",
+        "pagePath": "pages/everyday/content/content",
         "text": "每日一题",
         "iconPath": "images/question-circle-o.png",
         "selectedIconPath": "images/question-circle.png"
